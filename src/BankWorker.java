@@ -1,5 +1,5 @@
 public class BankWorker {
-    String name;
+    protected String name;
 
     BankWorker(String name) {
         this.name = name;

@@ -1,8 +1,8 @@
 public class BankClient {
-    String name;
-    boolean heCanPay;
-    boolean creditHistory;
-    boolean problemWithLaw;
+    protected String name;
+    protected boolean heCanPay;
+    protected boolean creditHistory;
+    protected boolean problemWithLaw;
 
     BankClient(String name, boolean creditHistory, boolean problemWithLaw,boolean heCanPay) {
         this.name = name;
